@@ -85,7 +85,7 @@ class _PortfolioViewState extends State<PortfolioView> with AfterLayoutMixin {
             ProjectPage(
               key: projectKey,
             ),
-            FooterView(),
+            const FooterView(),
             // Container(
             //   height: height,
             //   width: width,

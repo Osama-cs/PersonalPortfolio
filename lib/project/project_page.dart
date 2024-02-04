@@ -224,7 +224,7 @@ class ProjectPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MobileDesktopViewBuilder(
+    return const MobileDesktopViewBuilder(
       mobileView: ProjectMobilePage(),
       desktopView: ProjectDesktopPage(),
     );
