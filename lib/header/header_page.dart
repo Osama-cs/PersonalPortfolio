@@ -156,7 +156,7 @@ class HeaderMobilePage extends StatelessWidget {
     final mobileWidth = MediaQuery.of(context).size.width;
     final mobileHeight = MediaQuery.of(context).size.height;
     return Container(
-      height: mobileHeight * 0.9,
+      height: mobileHeight * 1.1,
       width: mobileWidth,
       padding: const EdgeInsets.symmetric(
         horizontal: 20,
