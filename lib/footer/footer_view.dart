@@ -32,7 +32,8 @@ class FooterDesktopView extends StatelessWidget {
             splashColor: Colors.transparent,
             highlightColor: Colors.transparent,
             hoverColor: Colors.transparent,
-            onTap: () => launchUrlString('https://github.com'),
+            onTap: () => launchUrlString(
+                'https://github.com/Osama-cs/PersonalPortfolio'),
             child: const Text(
               "Source Code",
               style: TextStyle(decoration: TextDecoration.underline),
