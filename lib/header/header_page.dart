@@ -74,7 +74,7 @@ class HeaderBody extends StatelessWidget {
         SizedBox(height: isMobile ? 10 : 37),
         AutoSizeText(
           //"Hi",
-          "Hi! My name is Osama Ilyas and I'm currently a Full Stack Developer. I have always had an interest in technology and lead me to Cardiff University to pursue that passion. Nowadays I have been working on different websites which I really enjoy doing as it gives me a new opportunity to learn something new! You can find more information about me by looking at my CV down below and I looking forward to getting in touch with you soon.",
+          "Hi! My name is Osama Ilyas and I'm currently a Full Stack Developer. I have always had an interest in technology and this lead me to Cardiff University to pursue that passion. Since graduating from university, I have been working on different websites which has been great as it gives me a new opportunity to learn something! You can find more information about me by looking at my CV down below and I looking forward to getting in touch with you soon.",
           style: GoogleFonts.openSans(fontSize: isSmallWidth ? 14 : 20),
           maxLines: 10,
         ),
