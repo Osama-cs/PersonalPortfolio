@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:osama_portfolio/footer/footer_view.dart';
 import 'package:osama_portfolio/header/header_page.dart';
 import 'package:osama_portfolio/navigation/navigation_bar.dart';
+import 'package:osama_portfolio/plain/plain_page.dart';
 import 'package:osama_portfolio/project/project_page.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
             )),
       ),
       home: const PortfolioView(),
+      routes: {'plain': (context) => const PlainPage()},
     );
   }
 }
