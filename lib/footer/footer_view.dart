@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:osama_portfolio/components/mobile_desktop_view_builder.dart';
-import 'package:osama_portfolio/plain/plain_page.dart';
+import 'package:osama_portfolio/routing/routes.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class FooterView extends StatelessWidget {
@@ -53,10 +53,7 @@ class FooterDesktopView extends StatelessWidget {
             ),
             onPressed: () {
               try {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const PlainPage()),
-                );
+                Navigator.pushNamed(context, Routes.plainPage);
               } catch (e) {
                 print('Error navigating to route: $e');
               }
