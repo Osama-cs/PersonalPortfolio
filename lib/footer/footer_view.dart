@@ -61,7 +61,7 @@ class FooterDesktopView extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 7, horizontal: 0),
               child: Text(
-                "Github Repo",
+                "Plains",
                 style: GoogleFonts.openSans(fontSize: 14),
               ),
             ),

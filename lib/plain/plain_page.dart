@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PlainPage extends StatefulWidget {
   const PlainPage({super.key});
@@ -10,9 +11,13 @@ class PlainPage extends StatefulWidget {
 class _PlainPageState extends State<PlainPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.red,
-      child: const Text("Hello"),
+    return const Scaffold(
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text("Plains :3"),
+        ],
+      ),
     );
   }
 }
