@@ -11,9 +11,10 @@ class PlainPage extends StatefulWidget {
 class _PlainPageState extends State<PlainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+    return const Material(
+      type: MaterialType.transparency,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text("Plains :3"),
         ],
