@@ -59,7 +59,7 @@ class HeaderBody extends StatelessWidget {
       children: [
         FittedBox(
           child: Text(
-            "I'm a Fullstack",
+            "I'm a Graduate",
             style: Theme.of(context).textTheme.displayMedium,
             maxLines: 1,
           ),
@@ -74,7 +74,7 @@ class HeaderBody extends StatelessWidget {
         SizedBox(height: isMobile ? 10 : 37),
         AutoSizeText(
           //"Hi",
-          "Hi! My name is Osama Ilyas and I'm currently a Full Stack Developer. I have always had an interest in technology and this lead me to Cardiff University to pursue that passion. Since graduating from university, I have been working on different websites which has been great as it gives me a new opportunity to learn something! You can find more information about me by looking at my CV down below and I looking forward to getting in touch with you soon.",
+          "Hi! My name is Osama Ilyas and I'm currently a Graduate Developer. I have always had an interest in technology and this lead me to Cardiff University to pursue that passion. Since graduating from university, I have been working on different projects ranging from websites to games, which has been a challenge but it allows me to to improve my skill set! You can find more information about me by looking at my CV down below and I looking forward to getting in touch with you soon.",
           style: GoogleFonts.openSans(fontSize: isSmallWidth ? 14 : 20),
           maxLines: 10,
         ),
@@ -131,7 +131,7 @@ class HeaderBody extends StatelessWidget {
             backgroundColor: Colors.cyan.shade300,
           ),
           onPressed: () => launchUrlString(
-              'https://drive.google.com/file/d/1N6aLxHdkY9mniqWIlVuKQ3-1TaAY2mWv/view?usp=sharing'),
+              'https://drive.google.com/file/d/1tpNj804zg56hsyESzYuXB8IPimKs8lQX/view?usp=sharing'),
           child: Padding(
             padding: EdgeInsets.symmetric(
                 vertical: isMobile ? 10 : 17, horizontal: isMobile ? 8 : 15),
