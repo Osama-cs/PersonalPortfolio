@@ -43,7 +43,7 @@ final kWebProjectItems = [
     image: 'images/Running_records_pic.png',
     title: 'Running Records',
     description:
-        "This is a website that I used flutter and Firebase to create. This allows a user to create an account a start up a timer to track how long they've have been running for and once they end the timer, that run gets put into a table that user can view so they can track they're progress.",
+        "This is a website that I used Flutter and Firebase to create. This allows a user to create an account a start-up a timer to track how long they've been running for and once they end the timer, that run gets put into a table that the user can view so they can track their progress.",
     techUsed: [
       'Flutter',
       'Firebase',
@@ -97,7 +97,7 @@ final kWebProjectItems = [
     image: 'images/Shiny_dex_pic.png',
     title: "ShinyDex",
     description:
-        "This is a website that uses Remix and the PokeAPI that let's you see each of the shiny pokemon across the pokemon games!",
+        "This is a website that uses Remix and the PokeAPI that lets you see each of the shiny Pokémon across the Pokémon games!",
     techUsed: [
       'Remix',
       'PokeAPI',
