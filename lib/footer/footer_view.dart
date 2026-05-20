@@ -28,7 +28,7 @@ class FooterDesktopView extends StatelessWidget {
         children: [
           Text("© Osama Ilyas $currentYear -- "),
           InkWell(
-            mouseCursor: MaterialStateMouseCursor.clickable,
+            mouseCursor: WidgetStateMouseCursor.clickable,
             splashColor: Colors.transparent,
             highlightColor: Colors.transparent,
             hoverColor: Colors.transparent,
@@ -59,7 +59,7 @@ class FooterMobileView extends StatelessWidget {
         children: [
           Text("© Osama Ilyas $currentYear -- "),
           InkWell(
-            mouseCursor: MaterialStateMouseCursor.clickable,
+            mouseCursor: WidgetStateMouseCursor.clickable,
             splashColor: Colors.transparent,
             highlightColor: Colors.transparent,
             hoverColor: Colors.transparent,

@@ -40,7 +40,7 @@ dependencies:
   auto_size_text: ^3.0.0
   url_launcher: ^6.1.8
   after_layout: ^1.1.1+1
-  font_awesome_flutter: ^10.6.0
+  font_awesome_flutter: ^11.0.0
 
 dev_dependencies:
   flutter_test:

@@ -126,7 +126,7 @@ final kWebProjectItems = [
     ),
     website: Link(
       target: LinkTarget.blank,
-      uri: Uri.parse("https://shiny-dex.fly.dev/"),
+      uri: Uri.parse("https://shinydex.fly.dev/"),
       builder: (BuildContext context, FollowLink? followLink) => FilledButton(
         style: FilledButton.styleFrom(
           shape: const RoundedRectangleBorder(

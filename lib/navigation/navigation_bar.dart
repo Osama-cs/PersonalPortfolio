@@ -67,7 +67,7 @@ class NavBarItem extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(left: 64),
       child: InkWell(
-        mouseCursor: MaterialStateMouseCursor.clickable,
+        mouseCursor: WidgetStateMouseCursor.clickable,
         onTap: onPressed,
         child: Text(
           navText,
